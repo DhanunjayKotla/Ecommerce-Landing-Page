@@ -1,0 +1,363 @@
+body{
+    margin: 0px;
+    user-select: none;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+p{
+    margin: 0px;
+    display: inline;
+}
+
+.a{
+    width: 100%;
+    /* height: 100vh;  */
+    background-color: hsl(0, 0%, 100%);
+    padding: 0px 7% 100px 7%;
+    box-sizing: border-box;
+}
+.ab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5vw 0px 2vw 0px; */
+    border-bottom: 2px solid hsl(240, 14%, 95%);
+}
+.aba{
+    padding: 1.5vw 0px 2vw 0px;
+}
+.abMb{
+    align-self: stretch;
+    display: flex;
+    align-items: stretch;
+}
+.abb{
+    display: flex;
+    color: hsl(219, 9%, 45%);
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin-left: 4vw;
+}
+.abb > *{
+    padding: 1.5vw 0px 2vw 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.abb > *:not(:last-child){
+    margin-right: 2vw;
+}
+.abb > *:hover{
+    color: black;
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+    margin-bottom: -2px; 
+}
+.abc{
+    margin: 0px 4vw 0px auto;
+    position: relative;
+    padding: 1.5vw 0px 2vw 0px;
+}
+.abca{
+    cursor: pointer;
+}
+.abcb{
+    display: none;
+    position: absolute;
+    width: 25vw;
+    aspect-ratio: 1.5/1;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    top: 100%;
+    left: -11.5vw;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgb(229, 226, 226), 
+        -10px 8px 15px rgb(230, 227, 227), 10px 8px 15px rgb(230, 228, 228);
+}
+.abcba{
+    font-weight: 700;
+    font-size: 1.3vw;
+    padding: 1.3vw 2vw;
+    border-bottom: thin solid rgb(238, 234, 234);
+}
+.abcbb{
+    padding: 0vw 2vw;
+    display: none;
+}
+.abcbba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 0px 1.3vw 0px;
+}
+.abcbbaa{
+    width: 20%;
+}
+.abcbbaa img{
+    width: 100%;
+    border-radius: 5px;
+}
+.abcbbab{
+    color: hsl(219, 9%, 45%);
+    font-size: 1vw;
+    font-weight: 600;
+}
+.abcbaba{
+    margin-bottom: 0.6vw;
+}
+.abcbabbb{
+    color: black;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-left: 0.4vw;
+}
+.abcbbac{
+    cursor: pointer;
+}
+.abcbbb{
+    font-size: 1.3vw;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.abcbc{
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: hsl(219, 9%, 45%);
+}
+.abcc{
+    display: none;
+    background-color: hsl(26, 100%, 55%);
+    width: 1.7vw;
+    aspect-ratio: 1.5/1;
+    text-align: center;
+    color: white;
+    font-size: 0.9vw;
+    font-weight: 700;
+    border-radius: 10px;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+}
+.abd{
+    width: 4%;
+    padding: 1.5vw 0px 2vw 0px;
+}
+.abd img{
+    width: 100%;
+    cursor: pointer;
+}
+.abd img:hover{
+    outline: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+
+.ac{
+    display: flex;
+    padding: 3vw 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.aca{
+    width: 45%;
+}
+.acaa img{
+    width: 100%;
+    margin-bottom: 2vw;
+    border-radius: 10px;
+}
+.acab{
+    display: flex;
+    justify-content: space-between;
+}
+.acab > *{
+    width: 20%;
+}
+.acab img{
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.acab div:first-child img{
+    filter: grayscale(60%);
+}
+.acab img:hover{
+    filter: grayscale(60%);
+}
+.acba{
+    color: hsl(26, 100%, 55%);
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.acbb{
+    font-size: 3vw;
+    font-weight: 700;
+    margin: 2vw 0px 3vw 0px;
+}
+.acbc{
+    font-size: 1.2vw;
+    line-height: 1.4;
+    font-weight: 500;
+    color: hsl(219, 9%, 45%);
+}
+.acbd{
+    display: flex;
+    margin-top: 2.3vw;
+    align-items: center;
+}
+.acbda{
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-right: 2vw;
+}
+.acbdb{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    font-size: 1.3vw;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+}
+.acbe{
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
+    font-size: 1.1vw;
+    font-weight: 700;
+    margin: 0.8vw 0px 3vw 0px;
+}
+.acbf{
+    display: flex;
+}
+.acbfa{
+    display: flex;
+    width: 32%;
+    /* height: 100px; */
+    background-color: hsl(223, 64%, 98%);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-right: 2vw;
+}
+.acbfaa, .acbfab{
+    padding: 15px 1vw;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.acbfaa{
+    padding-bottom: 20px;
+}
+.acbfb{
+    background-color: hsl(26, 100%, 55%);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 700;
+    width: 50%;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.acbfba{
+    margin-right: 1vw;
+}
+
+
+.b{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.ba{
+    width: 35%;
+}
+.baMa{
+    margin-bottom: 1vw;
+    text-align: end;
+}
+.baMa svg{
+    cursor: pointer;
+}
+.baa{
+    position: relative;
+}
+.baa img{
+    width: 100%;
+    margin-bottom: 2vw;
+    border-radius: 10px;
+}
+.bab{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bab > *{
+    width: 20%;
+}
+.bab img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bab img:hover{
+    filter: grayscale(60%);
+    cursor: pointer;
+}
+.baaa{
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 0.9vw 0px 0px 0.9vw;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 40%;
+    left: -4.5%;
+}
+.baab{
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 0.9vw 0px 0px 1vw;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 39%;
+    left: 95.5%;
+}
+.baaa:hover, .baab:hover{
+    color:hsl(26, 100%, 55%);
+    cursor: pointer;
+}
+
+.c{
+    background-color: hsl(26, 100%, 55%);
+    color:hsl(0, 0%, 100%);
+    width: 20%;
+    height: 5vw;
+    border-radius: 10px;
+    display: flex;
+    line-height: 5vw;
+    text-align: center;
+    position: sticky;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    display: none;
+}
+
+.abba, .abMa, .ac .baa, .mob, .d{
+    display: none;
+}

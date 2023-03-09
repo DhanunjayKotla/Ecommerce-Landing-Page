@@ -1,0 +1,314 @@
+@media screen and (max-width: 500px){
+    .a{
+        width: 100%;
+        min-height: 100vh;
+        padding: 0 0 10vw 0;
+        box-sizing: border-box;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .ab{
+        display: flex;
+        padding: 4vw 6vw;
+        align-items: center;
+    }
+    .abMa{
+        width: 5%;
+        margin-right: 4vw;
+    }
+    .abMa img{
+        width: 100%;
+    }
+    .aba{
+        width: 40%;
+    }
+    .aba img{
+        width: 100%;
+    }
+    .abMb{
+        display: none;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,75%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    .abb{
+        background-color: hsl(0, 0%, 100%);
+        width: 60%;
+        height: 100vh;
+        padding: 6vw 0 0 8vw;
+        font-size: 5.2vw;
+        font-weight: 700;
+        display: block;
+    }
+    .abb > *{
+        margin-bottom: 7vw;
+    }
+    .abb div:first-child{
+        margin-bottom: 14vw;
+    }
+    .abc{
+        width: 7%;
+        margin: 0px 5vw 0px auto;
+    }
+    .abca img{
+        width: 100%;
+        margin-left: auto;
+    }
+    .abd{
+        width: 8%;
+    }
+    .abd img{
+        width: 100%;
+    }
+    .abcb{
+        display: none;
+        position: absolute;
+        width: 25vw;
+        aspect-ratio: 1.5/1;
+        box-sizing: border-box;
+        background-color: hsl(0, 0%, 100%);
+        width: 95vw;
+        top: 18vw;
+        left: -73vw;
+        aspect-ratio: 1.2/1;
+        border-radius: 10px;
+        z-index: 2;
+        box-shadow: 0 0 0 0;
+    }
+    .abcba{
+        font-weight: 700;
+        font-size: 5vw;
+        padding: 7vw 7vw;
+        border-bottom: thin solid rgb(238, 234, 234);
+    }
+    .abcbb{
+        padding: 0vw 7vw;
+        display: none;
+    }
+    .abcbba{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8vw 0px 6vw 0px;
+    }
+    .abcbbaa{
+        width: 17%;
+    }
+    .abcbbaa img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .abcbbab{
+        color: hsl(219, 9%, 45%);
+        font-size: 4.3vw;
+        font-weight: 600;
+    }
+    .abcbaba{
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    .abcbabbb{
+        color: black;
+        font-size: 5vw;
+        font-weight: 700;
+        margin-left: 2vw;
+    }
+    .abcbbac{
+        width: 5%;
+        cursor: pointer;
+    }
+    .abcbbac img{
+        width: 100%;
+    }
+    .abcbbb{
+        font-size: 5vw;
+        font-weight: 600;
+        background-color: hsl(26, 100%, 55%);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15vw;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .abcbc{
+        text-align: center;
+        margin-top: 24vw;
+        font-size: 5vw;
+        font-weight: 600;
+        color: hsl(219, 9%, 45%);
+    }
+    .abcc{
+        display: none;
+        background-color: hsl(26, 100%, 55%);
+        width: 6vw;
+        aspect-ratio: 1.5/1;
+        text-align: center;
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        border-radius: 10px;
+        position: absolute;
+        top: -1vw;
+        left: 65%;
+    }
+    .baa{
+        position: relative;
+    }
+    .baa img{
+        width: 100%;
+        object-position: 0 -10vw;
+        border-radius: 0;
+        margin: 0;
+    }
+    .baaa{
+        width: 9vw;
+        height: 9vw;
+        background-color: white;
+        border-radius: 50%;
+        box-sizing: border-box;
+        padding: 2.3vw 0px 0px 2.4vw;
+        font-size: 4vw;
+        position: absolute;
+        top: 42%;
+        left: 5%;
+    }
+    .baab{
+        width: 9vw;
+        height: 9vw;
+        background-color: white;
+        border-radius: 50%;
+        box-sizing: border-box;
+        padding: 2.3vw 0px 0px 2.8vw;
+        font-size: 4vw;
+        position: absolute;
+        top: 42%;
+        left: 86%;
+    }
+    .baaa:hover, .baab:hover{
+        color:hsl(26, 100%, 55%);
+        cursor: pointer;
+    }
+    .ac{
+        display: block;
+        padding: 0;
+    }
+    .aca{
+        display: none;
+    }
+    .acb{
+        position: relative;
+        top: -4vw;
+        padding: 0 6vw;
+        box-sizing: border-box;
+    }
+    .acba{
+        color: hsl(26, 100%, 55%);
+        font-size: 4vw;
+        font-weight: 700;
+    }
+    .acbb{
+        font-size: 7.5vw;
+        font-weight: 700;
+        margin: 3vw 0px 5vw 0px;
+    }
+    .desk{
+        display: none;
+    }
+    .acbc{
+        font-size: 3.7vw;
+        line-height: 1.4;
+        font-weight: 600;
+        color: hsl(219, 9%, 45%);
+    }
+    .acbd{
+        display: flex;
+        margin-top: 7vw;
+        align-items: center;
+    }
+    .acbda{
+        font-size: 9vw;
+        font-weight: 700;
+        margin-right: 4vw;
+    }
+    .acbdb{
+        background-color: hsl(25, 100%, 94%);
+        color: hsl(26, 100%, 55%);
+        font-size: 5vw;
+        font-weight: 700;
+        padding: 3px;
+        border-radius: 10px;
+    }
+    .acbe{
+        color: hsl(219, 9%, 45%);
+        text-decoration: line-through;
+        font-size: 4vw;
+        font-weight: 700;
+        margin-left: auto;
+    }
+    .acbf{
+        display: block;
+    }
+    .acbfa{
+        display: flex;
+        width: 100%;
+        background-color: hsl(223, 64%, 98%);
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        font-size: 6vw;
+        font-weight: 700;
+        margin-top: 8vw;
+    }
+    .acbfaa, .acbfab{
+        padding: 5vw 6vw;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .acbfaa{
+        padding-bottom: 20px;
+    }
+    .acbfb{
+        background-color: hsl(26, 100%, 55%);
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 6vw;
+        font-weight: 700;
+        height: 15vw;
+        width: 100%;
+        justify-content: center;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 8vw;
+    }
+    .acbfba{
+        margin-right: 3vw;
+    }
+    .abba, .abMa, .ac .baa, .mob{
+        display: block;
+    }
+    .b, .d, .c{
+        display: none !important; 
+    }
+}
+
+@media screen and (max-width: 1198px){
+    .d{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Climate Crisis', cursive;
+    }
+}
